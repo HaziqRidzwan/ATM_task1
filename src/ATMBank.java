@@ -11,7 +11,7 @@ public class ATMBank {
 		ctD = new ConnectToDataBase(); // We are creating object
 	}
 
-	public void Login_Customer() throws SQLException {
+	public void Login_Customer() throws SQLException  {
 		System.out.print("Enter customer name: ");
 		String name = sc.next();
 		System.out.print("Enter customer password: ");
